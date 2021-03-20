@@ -1,0 +1,213 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background: rgb(255, 231, 201);
+	color: #848484;
+	font: 10px/14px Helvetica, sans-serif;
+}
+
+div,p,ul,h2,h3,h4,img {
+	padding: 0px;
+	margin: 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#container {
+	width: 675px;
+	margin: 0 auto;
+}
+
+
+/* HEADER */
+
+#headerblock {
+	width: 675px;
+	height: 75px;
+	position: relative;
+}
+
+#headerblock img#logo {
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+
+#headerblock p {
+	padding: 31px 20px 20px 100px;
+	font: 15px Helvetica, sans-serif;
+	font-weight: 600;
+	color: #ff404f;
+}
+
+/* HEADER menu*/
+
+#headerblock ul.menu {
+	position: absolute;
+	top: 30px;
+	left: 300px;
+	width: 400px;
+	height: 15px;
+}
+
+#headerblock ul.menu li {
+	float: left;
+	height: 15px;
+	margin-right: 10px
+}
+
+#headerblock ul.menu li a {
+	height: 15px;
+	display: block;
+	text-indent: -1000px;
+}
+
+#headerblock ul.menu li.b01 a {
+	width: 45px;
+	background: url(../images/btn_1.gif) no-repeat;
+}
+
+#headerblock ul.menu li.b02 a {
+	width: 50px;
+	background: url(../images/btn_2.gif) no-repeat;
+}
+
+#headerblock ul.menu li.b03 a {
+	width: 65px;
+	background: url(../images/btn_3.gif) no-repeat;
+}
+
+#headerblock ul.menu li.b04 a {
+	width: 75px;
+	background: url(../images/btn_4.gif) no-repeat;
+}
+
+#headerblock ul.menu li.b05 a {
+	width: 65px;
+	background: url(../images/btn_5.gif) no-repeat;
+}
+
+/* MAIN IMAGE */
+
+#picture img {
+	width: 675px;
+	height: 320px;
+	border-radius: 15px;
+}
+
+/* GENERAL INFORMATIONS */
+
+#contentblock {
+	width: 675px;
+	position: relative;
+	padding-top: 25px;
+	border-radius: 15px;
+	background: rgb(255, 238, 212)
+}
+
+/*block INTRODUCTION about company*/
+#c1 {
+	width: 250px;
+	margin: 0 25px 40px;
+	float: left
+}
+
+#welcome h2 {
+	height: 30px;
+	color: crimson;
+	margin-bottom: 10px
+}
+
+#welcome p {
+	font: 12px/14px Helvetica, sans-serif;
+	margin-bottom: 10px;
+	text-indent: 1.5em;
+	text-align: justify;
+	width: 200px
+}
+
+#welcome a:link {
+	font: 12px/14px Helvetica, sans-serif;
+	color: tomato;
+	margin-bottom: 10px;
+	text-align: justify;
+	width: 200px
+}
+
+#welcome a:visited {
+	font: 12px/14px Helvetica, sans-serif;
+	color: lightsalmon;
+	margin-bottom: 10px;
+	text-align: justify;
+	width: 200px
+}
+
+#welcome a:hover {
+	font: 12px/14px Helvetica, sans-serif;
+	color: maroon;
+	margin-bottom: 10px;
+	text-align: justify;
+	width: 200px
+}
+
+/*block INFORMATION about services of company*/
+
+#c2 {
+	width: 200px;
+	margin: 0 10px 0 0;
+	float: left
+}
+
+#services h2 {
+	height: 30px;
+	color: crimson;
+	margin-bottom: 10px
+}
+
+#services ul li {
+	background: url(../images/plus.png) no-repeat;
+	padding: 6px 0 0 25px;
+	margin-bottom: 10px;
+	min-height: 25px
+}
+
+#services ul li a {
+	font: 12px/14px Helvetica, sans-serif;
+	color: #6c6c42;
+	text-decoration: underline;
+}
+
+
+/*block NEWS about company*/
+
+#c3 {
+	width: 150px;
+	float: left
+}
+
+#news h2 {
+	height: 30px;
+	color: crimson;
+	margin-bottom: 10px
+}
+
+#news p {
+	font: 12px/14px Helvetica, sans-serif;
+	margin-bottom: 10px
+}
+
+#news p.date {
+	font: 12px/14px Helvetica, sans-serif;
+	color: mediumvioletred;
+	font-weight: bold;
+	padding-left: 25px;
+	background: url(../images/file.gif) no-repeat;
+}
+
+
+
+.clear {
+	clear: both;
+}
